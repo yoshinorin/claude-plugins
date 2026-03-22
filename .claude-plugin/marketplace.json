@@ -1,0 +1,18 @@
+{
+  "name": "my-plugins",
+  "owner": {
+    "name": "yoshinorin"
+  },
+  "plugins": [
+    {
+      "name": "commit-plugin",
+      "description": "A collection of skills for Git commit workflows, including commit message generation following the Conventional Commits format.",
+      "source": "./plugins/commit-plugin"
+    },
+    {
+      "name": "secret-scanner",
+      "description": "An agent that scans code and configuration files for sensitive information such as API keys, passwords, and personal data that must not be exposed in a public repository.",
+      "source": "./plugins/secret-scanner"
+    }
+  ]
+}
