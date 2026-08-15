@@ -13,6 +13,11 @@
       "name": "secret-scanner",
       "description": "An agent that scans code and configuration files for sensitive information such as API keys, passwords, and personal data that must not be exposed in a public repository.",
       "source": "./plugins/secret-scanner"
+    },
+    {
+      "name": "publish-checker",
+      "description": "Agents that check an npm package (npm-publish-checker) or Rust crate (crate-publish-checker) for readiness before publishing, verifying package metadata, the actual set of files that will be published, and common publish mistakes.",
+      "source": "./plugins/publish-checker"
     }
   ]
 }
